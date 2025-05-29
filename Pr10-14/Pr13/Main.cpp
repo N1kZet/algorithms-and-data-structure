@@ -13,7 +13,7 @@ struct SYSTEMA
 };
 
 void IzFaila(SYSTEMA* m,int n){
-    ifstream in("/home/n1kzet/Учеба/Programming-technologies-and-methods/Алгоритмы и структуры данных/Pr10-14/Pr13/input.txt");
+    ifstream in("/home/n1kzet/algorithms-and-data-structure/Pr10-14/Pr13/input.txt");
     if(!in){
         cout<<"Не удалось открыть файл" <<"\n";
         system("pause");

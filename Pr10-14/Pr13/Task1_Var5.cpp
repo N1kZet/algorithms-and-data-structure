@@ -14,7 +14,7 @@ struct Post
 
 void IzFaila(Post *m, int n)
 {
-    ifstream in("/home/n1kzet/Учеба/Programming-technologies-and-methods/Алгоритмы и структуры данных/Pr10-14/Pr13/inputs.txt");
+    ifstream in("/home/n1kzet/algorithms-and-data-structure/Pr10-14/Pr13/inputs.txt");
     if (!in)
     {
         cout << "Не удалось открыть файл" << "\n";
@@ -29,7 +29,7 @@ void IzFaila(Post *m, int n)
 void Vivod(Post *m, int n)
 {
     ofstream o("Post.txt");
-    cout << "Данные занесены в Planeta.txt\n\n";
+    cout << "Данные занесены в Post.txt\n\n";
     for (int i = 0; i < n; ++i)
     {
         cout << "ФИО: " << m[i].FIO << "\n";
